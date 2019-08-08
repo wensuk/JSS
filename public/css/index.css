@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 420px)
+{
+html, body {
+    /*max-width:100%;*/
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 50;
+    height: 100vh;
+    margin: 0;
+    overflow: scroll;
+
+}
+
+form {
+    display: inline-block;
+}
+
+/*Registration Page && Login Page */
+.register {
+    top: 200px;
+    position: fixed;
+    left: 10%;
+
+}
+
+.register > h2 {
+    left: 20%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.register .form-group {
+    top: 650px;
+    font-size: 20px;
+    padding: 10px;
+    /*margin-top: 15%;*/
+}
+
+.form-group > label {
+    font-size: 20px;
+    font-weight: bold;
+    /*text-align: left;*/
+}
+
+.register .form-control {
+    width: 180px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    margin-left: 10px;
+}
+
+.register-form .btn-primary {
+    margin-top: 50px;
+    height: 35px;
+    width: 90px;
+    font-size: 20px;
+
+}
+
+.message {
+  background-color: blue;
+}
+
+#registerSubmit {
+    position: relative;
+    left: 30%;
+}
+
+.but-form {
+    margin-top: 30px;
+    position: relative;
+    left: 25%;
+}
+
+#loginPageBtn {
+    top: 30px;
+    margin: 20px;
+    height: 35px;
+    width: 90px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+/*Navigation Bar (The Top Black Bar)*/
+.navbar-collapse {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    height: 70px;
+}
+
+/*Content In Nav Bar*/
+.links {
+    position: relative;
+    top: 25px;
+    padding: 2.5px;
+    left: 25px;
+}
+
+.links > a {
+    color: white;
+    padding: 2.5px;
+    font-size: 12.5px;
+    font-weight: 600;
+    /*letter-spacing: .1rem;*/
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    /*top: 35px;*/
+    margin-top: 10px;
+    margin: 2%;
+    display: inline;
+}
+
+/*Search Bar */
+.search-form
+{
+    border-radius: 30px 30px 30px 30px;
+    height: 20px;
+    /*float: right;*/
+    /*position:relative;*/
+    /*float: right;*/
+    /*position: relative;*/
+    left: 2px;
+    width: 20%;
+    /*width: 40%;*/
+
+
+}
+
+.glyphicon-search {
+
+    font-size: 50px;
+}
+
+/*Title Area*/
+.m-b-md {
+    /*margin-bottom: 30px;*/
+    margin-top: 250px;
+    font-size: 100px;
+
+}
+
+/*Task Form*/
+.task {
+    position: relative;
+    top: 150px;
+
+}
+
+.task > h2 {
+      font-size: 30px;
+      margin-left: 40px;
+}
+
+.task-form {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 300px;
+}
+
+.task-form .form-group {
+
+    display: block;
+    /*padding-bottom: 15px;*/
+    margin: 10px;
+    padding: 5px;
+    text-align: right;
+}
+
+.task-form .form-group .form-control {
+    float: right;
+    width: 50%;
+    margin-left: 15px;
+    border: solid grey;
+    border-radius: 5px;
+
+}
+
+
+.task-form .form-group > label {
+    font-size: 15px;
+
+
+}
+
+.dropdown-content {
+
+    display: none;
+    z-index: 1;
+}
+
+.dropdown-content > a {
+
+    display: block;
+}
+
+
+}
+
+@media screen and (min-device-width: 680px)
+{
+html, body {
+    /*max-width:100%;*/
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+    overflow: scroll;
+
+}
+
+form {
+    display: inline-block;
+}
+
+/*Registration Page && Login Page */
+.register {
+    top: 200px;
+    position: fixed;
+    left: 10%;
+
+}
+
+.register > h2 {
+    left: 20%;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.register .form-group {
+    top: 650px;
+    font-size: 20px;
+    padding: 10px;
+    /*margin-top: 15%;*/
+}
+
+.form-group > label {
+    font-size: 20px;
+    font-weight: bold;
+    /*text-align: left;*/
+}
+
+.register .form-control {
+    width: 180px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    margin-left: 10px;
+}
+
+.register-form .btn-primary {
+    margin-top: 50px;
+    height: 35px;
+    width: 90px;
+    font-size: 20px;
+
+}
+
+#registerSubmit {
+    position: relative;
+    left: 30%;
+}
+
+.but-form {
+    margin-top: 30px;
+    position: relative;
+    left: 25%;
+}
+
+#loginPageBtn {
+    top: 30px;
+    margin: 20px;
+    height: 35px;
+    width: 90px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+/*Navigation Bar (The Top Black Bar)*/
+.navbar-collapse {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    height: 100px;
+}
+
+/*Content In Nav Bar*/
+.links {
+    position: relative;
+    float: left;
+    left: 10px;
+    top: 35px;
+    height: 30px;
+    padding: 5px;
+}
+
+.links > a {
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    /*letter-spacing: .1rem;*/
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    /*top: 35px;*/
+    margin-top: 10px;
+    margin: 15px;
+
+}
+
+/*Search Bar */
+.search-form
+{
+    border-radius: 30px 30px 30px 30px;
+    height: 25px;
+    /*position: relative;*/
+    right: 0px;
+    float: right;
+    top: 35px;
+}
+
+/*Title Area*/
+.m-b-md {
+    /*margin-bottom: 30px;*/
+    margin-top: 250px;
+    font-size: 100px;
+
+}
+
+/*Task Form*/
+.task {
+    position: relative;
+    top: 150px;
+}
+
+.task .task-form {
+
+    position: relative;
+    float:center;
+}
+
+.task .form-group {
+    top: 650px;
+    font-size: 20px;
+    padding: 10px;
+    /*margin-top: 15%;*/
+}
+
+.task > label {
+    font-size: 20px;
+    font-weight: bold;
+    /*text-align: left;*/
+}
+
+.task .form-control {
+    width: 180px;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    margin-left: 10px;
+}
+
+.register-form .btn-primary {
+    margin-top: 50px;
+    height: 35px;
+    width: 90px;
+    font-size: 20px;
+
+}
+
+}
